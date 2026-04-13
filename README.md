@@ -146,7 +146,7 @@ Attempted using `mlxtend` Apriori algorithm on 10,000 transactions. No frequent 
 
 ---
 
-## Part 5: KPI Design & Dashboard Preparation
+## Part 5: KPI Design & Summarisation
 
 ### Business KPIs
 
