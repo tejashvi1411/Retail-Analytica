@@ -1,4 +1,4 @@
-# 🛒 Retail Analytica
+# Retail Analytica
 
 A comprehensive end-to-end retail and marketing analytics project built with Python. This project covers the full data analytics pipeline — from raw data ingestion to executive-ready KPI Reports — applied to a 10,000-order retail dataset spanning January 2022 to February 2023.
 
