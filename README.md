@@ -4,7 +4,7 @@ A comprehensive end-to-end retail and marketing analytics project built with Pyt
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 The project is organized across five analytical stages:
 
@@ -20,7 +20,7 @@ Retail_Analytica/
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 | Attribute | Detail |
 |---|---|
@@ -37,7 +37,7 @@ Key fields include: `Order_ID`, `Order_Date`, `Ship_Date`, `Customer_ID`, `Segme
 
 ---
 
-## 🔧 Part 1: Data Acquisition & Setup
+## Part 1: Data Acquisition & Setup
 
 - Loaded raw retail sales CSV and validated structure
 - Derived `Unit_Price` and `Revenue` from base fields
@@ -46,7 +46,7 @@ Key fields include: `Order_ID`, `Order_Date`, `Ship_Date`, `Customer_ID`, `Segme
 
 ---
 
-## 🧹 Part 2: Data Cleaning & Preprocessing
+## Part 2: Data Cleaning & Preprocessing
 
 - **Missing value treatment**: Numerical columns filled with median; categorical columns filled with mode
 - **Deduplication**: No duplicates found; index reset for integrity
@@ -68,7 +68,7 @@ Post-cleaning: 10,000 complete rows, 0 missing values, 45 columns.
 
 ---
 
-## 🔍 Part 3: Exploratory Data Analysis (EDA)
+## Part 3: Exploratory Data Analysis (EDA)
 
 ### Univariate Analysis
 Distributions plotted for `Sales`, `Quantity`, `Profit`, `Discount`, and `Unit_Price` with mean/median markers and skewness/kurtosis statistics.
@@ -99,7 +99,7 @@ Distributions plotted for `Sales`, `Quantity`, `Profit`, `Discount`, and `Unit_P
 
 ---
 
-## 🤖 Part 4: Customer Segmentation & Advanced Analytics
+## Part 4: Customer Segmentation & Advanced Analytics
 
 ### RFM Analysis
 Calculated Recency, Frequency, and Monetary scores for all 1,986 customers:
@@ -146,7 +146,7 @@ Attempted using `mlxtend` Apriori algorithm on 10,000 transactions. No frequent 
 
 ---
 
-## 📈 Part 5: KPI Design & Dashboard Preparation
+## Part 5: KPI Design & Dashboard Preparation
 
 ### Business KPIs
 
@@ -182,7 +182,7 @@ Attempted using `mlxtend` Apriori algorithm on 10,000 transactions. No frequent 
 14-month trend data computed for: Revenue, Orders, Customers, AOV, Units Sold, Revenue Growth %, Customer Growth %, and Order Growth %.
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Library | Purpose |
 |---|---|
